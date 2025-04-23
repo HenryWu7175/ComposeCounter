@@ -42,7 +42,7 @@ fun Counter(modifier: Modifier = Modifier) {
             Text(text = "Add")
         }
         Text(
-            text = "0",
+            text = "$count",
             fontSize = 192.sp
         )
         Button(onClick = { count-- }) {
